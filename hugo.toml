@@ -1,0 +1,159 @@
+baseURL = "/"
+title = "ALASIA & DUTARI"
+languageCode = "en-us"
+defaultContentLanguage = "es"
+paginate = "7"
+theme = "spectral"
+#googleAnalytics = "G-XXXXXXXXXX"
+
+[params]
+fancyTitle = "ALASIA & DUTARI" # title for frontpage, may include image
+copyright = "ALASIA & DUTARI - TODOS LOS DERECHOS RESERVADOS"
+description = 'ESTUDIO CONTABLE INTEGRAL<br />. . .<br />BRINDAMOS LO QUE UD. NECESITA<br />'
+startbuttonText = "CONTACTO"
+startbuttonLink = "#footer"
+body_is_markdown = true
+#custom_css = "foo.css"
+#custom_sass = "bar.scss"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '#footer'
+title = "CONTACTO"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = false
+title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
+body = '''
+Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
+fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+img_alt = "blurry background: white/grey"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'NUESTROS SERVICIOS'
+body = '''
+Somos un equipo de profesionales y colaboradores totalmente capacitados para  
+brindar servicios de excelente calidad en las siguientes áreas:
+'''
+
+[[params.three.feature]]
+icon = "solid fa-check-square"
+title = "FISCAL"
+body = "Declaraciones juradas mensuales y anuales, de impuestos nacionales y provinciales. Inscripciones. Monotributo. Atención de inspecciones."
+
+[[params.three.feature]]
+icon = "solid fa-address-card"
+title = "LABORAL"
+body = "Liquidaciones de sueldos. Declaraciones juradas. Documentación laboral. Obligaciones sindicales. Reportes a medida."
+
+[[params.three.feature]]
+icon = "solid fa-industry"
+title = "PYMES - SOCIEDADES"
+body = "Apoyo en la formación. Constitución de sociedades. Inscripciones. Consultoría en temas societarios."
+
+[[params.three.feature]]
+icon = "solid fa-calculator"
+title = "CONTABILIDAD"
+body = "Preparación de estados contables. Análisis de saldos contables. Libros contables. Auditorías. Certificaciones."
+
+[[params.three.feature]]
+icon = "solid fa-comments"
+title = "CONSULTORIA"
+body = "Legajos bancarios. Consultoría permanente en temas impositivos, contables, laborales y societarios. Monotributo. Emisión de documentos de ventas electrónicos."
+
+[[params.three.feature]]
+icon = "solid fa-plus-square"
+title = "ATENCION PERSONALIZADA"
+body = "Nos aseguramos de brindar el servicio correcto con la atención personalizada que Ud. merece y que nos diferencia de la competencia."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = false
+title = "Contact"
+body = "Leave us a message."
+phone = "+54 (0351) 474 1448"
+address = "JUAN A. LAVALLEJA 2443 - BARRIO ALTA CORDOBA - (5001) CORDOBA, ARGENTINA"
+email = "estudio@alasiadutari.com.ar"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = ""
+facebook = "alasiadutari"
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
