@@ -4,7 +4,7 @@ languageCode = "en-us"
 defaultContentLanguage = "es"
 paginate = "7"
 theme = "spectral"
-#googleAnalytics = "G-XXXXXXXXXX"
+googleAnalytics = "G-098P2DDP5V"
 
 [params]
 fancyTitle = "ALASIA & DUTARI" # title for frontpage, may include image
